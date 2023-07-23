@@ -6,9 +6,6 @@
 [![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
 [![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/)
 [![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com/)
-[![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat-square&logo=GitHub%20actions)](https://github.com/features/actions)
-
-![Digests Searcher](https://github.com/kvazymir1199/foodgram-project-react/actions/workflows/foodgram_react_project_workflow.yml/badge.svg)
 
 # Digests Searcher
 
@@ -41,8 +38,8 @@
 # Технологии
 
 - [Python 3.10](https://www.python.org/downloads/release/python-388/)
-- [Django 3.2](https://www.djangoproject.com/download/)
-- [Django Rest Framework 3.12.4](https://www.django-rest-framework.org/)
+- [Django 4.2.3](https://www.djangoproject.com/download/)
+- [Django Rest Framework 3.14.0](https://www.django-rest-framework.org/)
 - [PostgreSQL 13.0](https://www.postgresql.org/download/)
 - [gunicorn 20.0.4](https://pypi.org/project/gunicorn/)
 - [nginx 1.19.3](https://nginx.org/ru/download.html)
