@@ -41,7 +41,8 @@ class Post(models.Model):
     rating = models.IntegerField(choices=CHOICES)
 
     def __str__(self):
-        return f"{self.subscription.user.name} subscription №:{self.subscription.id} post №:{self.id}"
+        return f"{self.subscription.user.name} " \
+               f"subscription id:{self.subscription.id} post id:{self.id}"
 
 
 class Digest(models.Model):

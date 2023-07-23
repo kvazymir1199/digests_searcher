@@ -3,7 +3,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY', 'default_secret_key')
-#SECRET_KEY = 'django-insecure-r@_sl%us7d)sf@#-m0m%###hxxofd3ci6u(-w6q^p-)1#4x@)s'
 
 DEBUG = True
 
@@ -57,12 +56,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'digest_project.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE'),
