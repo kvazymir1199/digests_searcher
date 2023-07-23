@@ -50,7 +50,7 @@
 
 # URL's
 
-- http://localhost/
+- http://localhost/api/
 
 # Локальная установка
 
